@@ -25,3 +25,62 @@ li{list-style: none;
 	font-weight: bold;
 	border: 3px solid #5E8039;
 }
+
+
+/* Slider imagen principal */
+* {
+    box-sizing: border-box;
+}
+input[name="slider-select-element"] /*circulitos*/{
+    display:circle;
+} 
+#slider-container /*contenedor total*/{
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+    width: 100%;
+} 
+#slider-box/*no borrar es la caja total de las imgs*/ {
+    height: 100%;
+    width: 300%;
+} 
+
+.element-1{
+    background: url("../img/foto.jpg") no-repeat center; 
+}
+.element-2{
+    background: url("../img/foto1.jpg") no-repeat center;
+
+}
+.element-3{
+    background: url("../img/foto2.jpg")no-repeat center;
+}
+.element-1,.element-2,.element-3 {
+    min-height: 400px;
+    max-height: 100%;
+    width: 100%;
+}
+.slider-element /*los matiene flotando*/{
+    float: left;
+    width: 33.333%;
+}
+/*margenes no borrar necesario*/
+#element1:checked ~ #slider-container #slider-box {
+    margin-left: 0;
+}
+#element2:checked ~ #slider-container #slider-box {
+    margin-left: -100%;
+}
+#element3:checked ~ #slider-container #slider-box {
+    margin-left: -200%;
+} /*margenes no borrar necesario*/
+
+#slider-box /*animacion*/{
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+} 
+/*fin de imagen principal*/
