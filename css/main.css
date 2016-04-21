@@ -5,20 +5,21 @@ li{list-style: none;
 .menu{
 	padding-top: 50px;
 	padding-bottom:;
-}
+} 
 .menu li{
-	padding-right: 0px;
-	padding-left: 0px;
+	padding: auto 0;
 	border-right:2px solid #4D4D4D;
 }
 .menu a {
 	color: #4D4D4D;
-	/*padding:10px 15px;*/
+	padding:10px 15px;
 	font-size: 20px;
-	margin: 20px; }
+	margin: 0px; }
 .menu li:last-child{
 	border-right:none;}
 .menu a:hover{
-	background: #00CC33;
-	font-size: 30px;
+	background: #A7C244;
+	font-size: 28px;
+	font-weight: bold;
+	border: 3px solid #5E8039;
 }
