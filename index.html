@@ -32,8 +32,8 @@
 		</div> 
 	</header>
 
-
-	<section class="imagen-principal text-center"> <!-- imagen principal  Mabe-->
+<!-- Secciones -->
+	<section class="imagen-principal"> <!-- imagen principal Mabe -->
 		<!-- imagenes carrusel	 -->
                 <input type="radio" name="slider-select-element" id="element1" checked="checked" />
                 <input type="radio" name="slider-select-element" id="element2" />
@@ -58,32 +58,42 @@
 	</section> 
 
 	<section class="text-black bg-gray text-center"> <!-- intro -->
-		<p>Ecomunidad es una Organización sin ánimo de lucro líder en innovación y desarrollo de proyectos tecnológicos enfocados en solucionar problemas ambientales de las comunidades y de la sociedad en general.</p>
+		<div class="container">
+		<p class="pt-5 pb-5">Ecomunidad es una Organización sin ánimo de lucro líder en innovación y desarrollo de proyectos tecnológicos enfocados en solucionar problemas ambientales de las comunidades y de la sociedad en general.</p>
+		</div>
 	</section>
 	
 
 	<section id="nosotros" class="container text-center"> <!-- mision y vision -->
-		<div class="row">
+		<div class="row text-center">
 			<!-- Dar padding para centralo  y creemos que debemos usar .lh-->
 			<div class="col-6">
 				<!-- mision -->
 				<!-- imagen , h3,p ( text-black) -->
 				<img src="img/iconos/mision/mision.png">
-				<h3 class="">Mision</h3>
+				<h3>Mision</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, totam nostrum minus, officiis, excepturi quis ut quibusdam nesciunt adipisci deserunt deleniti qui ullam esse illo, harum dolorem optio perferendis eaque.</p>
 			</div>
-			<div class="col-6">
+			<div class="col-6 text-center">
 				<!-- vision -->
 				<!-- imagen , h3,p ( text-black)-->
+				<img src="img/iconos/mision/vision.png">
+				<h3>Vision</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ullam exercitationem animi dolore quaerat natus, odio maiores alias error assumenda! Molestias, nisi temporibus natus, sapiente itaque laborum maiores debitis aspernatur.</p>
 			</div>
 		</div>
 	</section>
-
-	<section class="row text-white"> <!-- metodologia -->
+	
+	<section class="row text-white fondoverde"> <!-- metodologia -->
 		<div class="col-6">
 		<!-- imagen background	 -->
+			<img class="w-100" src="img/metodo.jpg">
 		</div>
-		<div class="col-6">
+		<div class="col-6 text-center pt-10">
 			<!-- icono + h3 +p -->
+			<img src="img/iconos/metodologia-icon.png">
+			<h3>Metodoligia</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam nam porro molestiae velit, pariatur enim earum voluptatibus voluptatum totam vitae dicta odit. Consequatur quae ipsa doloremque totam aut praesentium pariatur.</p>
 		</div>
 	</section>
 
@@ -146,26 +156,36 @@
 	</section>
 
 	<section  id="proyectos" class="bg-green"> <!-- proyectos -->
-		<div class="container text-white text-center">
-			<div class="row "> <!--  Titulo primer fila -->
+		<div class="container text-white text-center pt-5 pb-5">
+			<div class="row"> <!--  Titulo primer fila -->
 			<!-- Proyectos (h3 +) -->
+			<h3 class="text-left">Proyectos</h3>
 			</div>
 
 			<div class="row"> <!-- Segunda Fila Proyecto1 -->
 				<div class="col-6">
 					<!-- imagen -->
+					<img class="w-100" src="img/fotos/img-0352.jpg">
 				</div>
-				<div class="col-6">
+				<div class="col-6 pt-5">
 					<!-- h3+ h4+p -->
+					<h4>Proyecto Cuidadores del Planeta</h4>
+					<h5>Distrito de Paucarpata</h5>
+					<p>Programa dirigido a niños de 4-8 años fomentando en ellos el cuidado del medio ambiente, no con contenidos conceptuales, sino encaminadas al desarrollo de aptitudes y valores con relación al cuidado y respeto del entorno natural y social en el cual se encuentran inmersos, llegando como meta final no solo a un programa de educación ambiental, sino un programa en VALORES</p>
 				</div>
 			</div>
 
 			<div class="row"> <!-- Tercera Fila Proyecto2 -->
 				<div class="col-6">
 					<!-- imagen -->
+					<img class="w-100" src="img/fotos/img-9246.jpg">
 				</div>
-				<div class="col-6">
+				<div class="col-6 pt-5">
 					<!-- h3+ h4+p -->
+					<h4>Proyecto RRR</h4>
+					<p>(Recicla-Rehace-Recrea)</p>
+					<h5>Distrito Zamacola</h5>
+					<p>Con este proyecto se busca incentivar a los niños al reciclaje de manera que ellos se diviertan y aprendan jugando. </p>
 				</div>
 			</div>
 		</div>
@@ -234,6 +254,12 @@
 
 	<section id="siguenos" class="bg-black"> <!-- contacto -->
 		<!-- lista  con border blanco( nombre e icono redondeado) -->
+		<ul class="text-white contacto">
+			<li><p>Facebook</p><img src="img/facebook.png"></li>
+			<li><p>Twitter</p><img src="img/twitter.png"></li>
+			<li><p>Linkendin</p><img src="img/in.png"></li>
+			<li><p>E-mail</p><img src="img/email.png"></li>
+		</ul>
 	</section>
 	<!--  -->
 
