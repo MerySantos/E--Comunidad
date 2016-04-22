@@ -84,3 +84,10 @@ input[name="slider-select-element"] /*circulitos*/{
     transition: all 0.75s ease;
 } 
 /*fin de imagen principal*/
+
+/*Servicios*/
+.servicios p{ font-family: OpenSans-Ligth; font-size: 13px;}
+.servicios div div{ padding: 3%;}
+.lista-servicios p{ text-align: justify;}
+.servicios img{ width: 40%; }
+.lista-servicios h4 { margin:5%; }
