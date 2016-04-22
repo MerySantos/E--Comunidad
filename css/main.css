@@ -2,9 +2,10 @@
 a{text-decoration: none;}
 li{list-style: none;
 	display: inline-block;}
+
+/*Comienza el menu */
 .menu{
-	padding-top: 50px;
-	padding-bottom:;}
+	padding-top: 50px;}
 
 .menu li{
 	padding: auto 0;
@@ -14,7 +15,8 @@ li{list-style: none;
 	color: #4D4D4D;
 	padding:10px 15px;
 	font-size: 20px;
-	margin: 20px; }
+	margin: 0px; }
+
 .menu li:last-child{ border-right:none;}
 
 .menu li:last-child{
@@ -85,9 +87,17 @@ input[name="slider-select-element"] /*circulitos*/{
 } 
 /*fin de imagen principal*/
 
+/*Clase reutilizable en todo la pagina*/
+.text-peq-gris{ font-family: OpenSans-Ligth; font-size: 13px; }
+
 /*Servicios*/
-.servicios p{ font-family: OpenSans-Ligth; font-size: 13px;}
 .servicios div div{ padding: 3%;}
 .lista-servicios p{ text-align: justify;}
 .servicios img{ width: 40%; }
 .lista-servicios h4 { margin:5%; }
+/*Fin Servicios*/
+
+/*Team*/
+.img-team{ width: 65%; border-radius: 25% 0; border:5px solid #5E8039; margin-bottom: 10%;}
+.equipo li{ width: 15%; }
+.img-redes{ width: 70%;}
