@@ -16,7 +16,17 @@
 	src: url(../fonts/Open/OpenSans-Bold.ttf);
 }
 
+/* Shortcuts nuestros*/
+.text-peq-gris{ font-family: OpenSans-Ligth; font-size: 13px; }
+.mg-tyb-5{ margin: 5% auto; }
+.mgb8{  }
+.pt-3{padding-top: 3%;}
+.pb-3{padding-bottom: 3%;}
+.color-hueso{ color: #C4C6C3; }
+.pd-r-0{ padding-right: 0; }
+
 /* Shortcuts */
+
 
 .pd-0 {
 	padding: 0;
