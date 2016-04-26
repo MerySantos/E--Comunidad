@@ -76,7 +76,6 @@ li{list-style: none;
 /*fin de imagen principal*/
 
 /*mision y vision*/
-.myv{ padding-right:0;}
 .myv img {width: 30%; }
 /*fin mision y vision*/
 
@@ -97,6 +96,11 @@ li{list-style: none;
 .fondoverde{background: url(../img/fondo.jpg);}
 /*Fin proyectos*/
 
+/*Blog*/
+.fondo-blog{ background: url(../img/fondo2.jpg) }
+/*#blog h4{ margin: 5% auto auto; }*/
+/*Fin Blog*/
+
 /*parte siguenos*/
 #siguenos{	padding: 30px 0;}
 .contacto{	border: 1px solid white;
@@ -116,4 +120,3 @@ li{list-style: none;
 .contacto li:last-child{border-right:none;} 
 .contacto p{padding: 5%; }
 /*termina siguemos*/
-
