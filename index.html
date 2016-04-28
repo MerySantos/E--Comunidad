@@ -12,10 +12,10 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body onload="myFunction()">
 	<!-- Inserta tu código aqui -->
-	<br>
-	<header class="container pb-3">  <!-- menu -->
+	
+	<header class="container mg-1">  <!-- menu -->
 		<div class="row">
 			<div class="col-2">
 				<!-- imagen- logo-->
@@ -37,7 +37,7 @@
 
 
 <!-- Secciones -->
-	<section class="imagen-principal text-center"> <!-- imagen principal Mabe -->
+	<section class="imagen-principal text-center"  > <!-- imagen principal Mabe -->
 		<!-- imagenes carrusel	 -->
                 <input  type="radio" name="slider-select-element" id="element1" checked="checked" />
                 <input type="radio" name="slider-select-element" id="element2" />
@@ -46,7 +46,7 @@
                 <div id="slider-container">
                     <div id="slider-box">
                         <div class="slider-element">
-                            <article class="element-1">  
+                            <article class="element-1" name="fading">  
                             </article>
                         </div>
                         <div class="slider-element">
@@ -97,7 +97,7 @@
 			<!-- icono + h3 +p -->
 			<img src="img/iconos/metodologia-icon.png">
 			<h3>Metodologia</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam nam porro molestiae velit, pariatur enim earum voluptatibus voluptatum totam vitae dicta odit. Consequatur quae ipsa doloremque totam aut praesentium pariatur.</p>
+			<p>En E-comunidad trabajamos proyectos ecológicos dando el apoyoa diversas comunidades y tomando la iniciativa frente a una necesidad que mejore cierto lugar o mejore una necesidad. Empezamos  informando sobre nuestro proyecto, con el fin de encontrar colaboradores, luego emprendemos acciones en equipo. E-comunidad informa, enseña y genera acción.</p>
 		</div>
 	</section>
 
@@ -105,8 +105,8 @@
 		<div class="row "> <!-- titulo con su parrafo -->
 			<div class=" col-12">
 			<!-- h3 + p -->
-			<h3 class="pt-5">Servicios</h3>
-				<p class="pd-5-10 text-peq-gris"> Contamos con una variedad de servicios entre capacitaciones, consultorìas y planes de accion, todos ellos para lograr el bienestar de las diferentes comunidades.  </p> 
+			<h2 class="pt-5">Servicios</h2>
+				<p class="pd-5-10 "> Contamos con una variedad de servicios entre capacitaciones, consultorìas y planes de accion, todos ellos para lograr el bienestar de las diferentes comunidades.  </p> 
 			</div>
 		</div>
 
@@ -115,22 +115,22 @@
 				<!-- Educacion para el desarrollo sostenible -->
 				<!-- icono + h4 (verde pacae) +p -->
 				<img src="img/iconos/servicios-icon/educacion.png">
-				<h4 class="text-green">Educacion para el desarrollo sostenible</h4>
-				<p class="text-peq-gris"> La EDS permite que cada ser humano adquiera los conocimientos, las competencias, las actitudes y los valores necesarios para forjar un futuro sostenible</p>
+				<h3 class="text-green">Educacion para el desarrollo sostenible</h3>
+				<p class=""> La EDS permite que cada ser humano adquiera los conocimientos, las competencias, las actitudes y los valores necesarios para forjar un futuro sostenible</p>
 			</div>
 			<div class="col-4">
 				<!-- Mitigacion Cambio Climatico -->
 				<!-- icono + h4 (verde pacae) +p -->
 				<img src="img/iconos/servicios-icon/mitigacion.png">
-				<h4 class="text-green"> Mitigacion Cambio Climatico</h4>
-				<p class="text-peq-gris"> Consiste en disminuir la intensidad del forzante radiativo con el fin de reducir los efectos potenciales del calentamiento global</p>
+				<h3 class="text-green"> Mitigacion Cambio Climatico</h3>
+				<p class=""> Consiste en disminuir la intensidad del forzante radiativo con el fin de reducir los efectos potenciales del calentamiento global</p>
 			</div>
 			<div class="col-4">
 				<!-- Bienestar Ocupacional -->
 				<!-- icono + h4 (verde pacae) +p -->
 				<img src="img/iconos/servicios-icon/bienestar.png">
-				<h4 class="text-green" >Bienestar Ocupacional </h4>
-				<p class="text-peq-gris"> Busca controlar los accidentes y las enfermedades mediante la reducción de las condiciones de riesgo.</p>
+				<h3 class="text-green" >Bienestar Ocupacional </h3>
+				<p class=""> Busca controlar los accidentes y las enfermedades mediante la reducción de las condiciones de riesgo.</p>
 			</div>
 		</div>
  
@@ -139,22 +139,22 @@
 				<!-- Consultorias en Seguridad Industrial y Medio Ambiente -->
 				<!-- icono + h4 (verde pacae) +p -->
 				<img src="img/iconos/servicios-icon/seguridad-icon.png">
-				<h4 class="text-green"> Consultorias en Seguridad Industrial y Medio Ambiente</h4>
-				<p class="text-peq-gris">Comprende el conjunto de actividades destinadas a la identificacion y control de las causas de los accidentes.  </p>
+				<h3 class="text-green"> Consultorias en Seguridad Industrial y Medio Ambiente</h3>
+				<p class="">Comprende el conjunto de actividades destinadas a la identificacion y control de las causas de los accidentes.  </p>
 			</div>
 			<div class="col-4">
 				<!-- Manejo de Aguas -->
 				<!-- icono + h4 (verde pacae) +p -->
 				<img src="img/iconos/servicios-icon/manejo-de-agua.png">
-				<h4 class="text-green"> Manejo de Aguas  </h4>
-				<p class="text-peq-gris"> El agua es un recurso valioso, y debe manejarse con cuidado a fin de proteger los suministros de agua para las generaciones futuras</p>
+				<h3 class="text-green"> Manejo de Aguas  </h3>
+				<p class=""> El agua es un recurso valioso, y debe manejarse con cuidado a fin de proteger los suministros de agua para las generaciones futuras</p>
 			</div>
 			<div class="col-4">
 				<!-- Agricultura -->
 				<!-- icono + h4 (verde pacae) +p -->
 				<img src="img/iconos/servicios-icon/agricultura-icon.png">
-				<h4 class="text-green"> Agricultura </h4>
-				<p class="text-peq-gris"> Sistema para cultivar una explotación agrícola autónoma basada en la utilización óptima de los recursos naturales.</p>
+				<h3 class="text-green"> Agricultura </h3>
+				<p class=""> Sistema para cultivar una explotación agrícola autónoma basada en la utilización óptima de los recursos naturales.</p>
 			</div>
 		</div>
 	</section>
@@ -178,7 +178,7 @@
 					<p class="color-hueso">Programa dirigido a niños de 4-8 años fomentando en ellos el cuidado del medio ambiente, no con contenidos conceptuales, sino encaminadas al desarrollo de aptitudes y valores con relación al cuidado y respeto del entorno natural y social en el cual se encuentran inmersos, llegando como meta final no solo a un programa de educación ambiental,sino un programa en VALORES</p>
 				</div>
 			</div>
-
+			<br>
 			<div class="row"> <!-- Tercera Fila Proyecto2 -->
 				<div class="col-6">
 					<!-- imagen -->
@@ -248,13 +248,13 @@
 
 	<!-- inicio blog -->
 	<section id="blog" class="fondo-blog img-fondo"> <!-- blog --> <!-- clase fondo-blog no creada -->
-		<div class=" row">
-		<h4 class="mg-3"> BLOG </h4>
-		<!-- FUNCIONA PERO FALTA PENSAR UN POCO MAS XD  -->
-		<!-- Agregar iconos de avance u retroceso -- - USAR ID  -->
-		<!-- lista 6 fotos+ displayinlineBlock		 -->
-			 <!-- cada il : imagen + h3+h4+p (plomo) -->
-		<div class="slider">
+		<div class=" row p-relative">
+			<h4 class="mg-3"> BLOG </h4>
+			<!-- FUNCIONA PERO FALTA PENSAR UN POCO MAS XD  -->
+			<!-- Agregar iconos de avance u retroceso -- - USAR ID  -->
+			<!-- lista 6 fotos+ displayinlineBlock		 -->
+			<!-- cada il : imagen + h3+h4+p (plomo) -->
+			<div class="slider">
 				<div class="cont-slider-ineter">
 					<div class="cont-slider">
 						<div class="cont-img">
@@ -273,9 +273,10 @@
 							<img src="img/fotos/slider-3.JPG">
 							<h2>Titulo del Post 3</h2>
 	        				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat molestiae iure obcaecati ipsa expedita ullam quae laudantium, fugit aliquam enim voluptatibus consequuntur consequatur dignissimos dolores blanditiis minima, architecto distinctio deleniti!</p>
-						</div>
+						</div> <!-- primer contenedor --><!-- primera fla -->
 					</div>
-					<div class="cont-slider">
+
+					<div class="cont-slider"> <!-- segundo contenedor -->
 						<div class="cont-img">
 							<img src="img/fotos/slider-1.JPG">
 							<h2>Titulo del Post 4</h2>
@@ -292,11 +293,11 @@
 	        				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat molestiae iure obcaecati ipsa expedita ullam quae laudantium, fugit aliquam enim voluptatibus consequuntur consequatur dignissimos dolores blanditiis minima, architecto distinctio deleniti!</p>
 						</div>
 					</div>
-
-					<button class="next"></button>
-					<button class="prev"></button>
 				</div>
 			</div>
+
+			<button class="next"></button>
+			<button class="prev"></button>
 		</div>
 	</section>
 	<!-- fin blog -->
@@ -325,4 +326,20 @@
 </body>
 <script src="js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="js/scritp.js"></script>
+<script type="text/javascript">
+	var myVar;
+
+	function myFunction() {
+    myVar = setInterval(alertFunc, 6000);
+	}
+
+	function alertFunc() {
+	  // alert("Hello!");
+	  if (element1.checked===true) {element2.checked=true; element1.checked=false;}
+	  	else if( element2.checked===true){ element3.checked=true; element2.checked=false;}
+	  	else { element1.checked=true; element3.checked=false;}
+
+	}
+	
+</script>
 </html>

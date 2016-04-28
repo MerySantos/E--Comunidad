@@ -1,12 +1,12 @@
 /*/*{outline: 1px solid rgba(225,0,0, 0.4);*/
-
+.p-relative{position: relative;}
 }
 .img-fondo{
 	background: url(../img/fondo2.jpg);
 	height: 335px;
 }
 .slider{
-	width: 89%;
+	width: 63%;
 	height: 335px;
 	margin: auto;
 	overflow: hidden;
@@ -26,25 +26,25 @@
 	display: inline-block;
 	width: 217px;
     margin: 0 31px 0 31px;
-	font-size: 10px;
+	font-size: 13px;
 	margin-bottom: 60px;
 }
 .cont-img img{
 	width: 100%;
 }
-.slider .cont-slider-ineter .next{
+.next{
 	background: url(../img/iconos/slider/next.png) no-repeat;
 	height: 34px;
 	width: 34px;
 	position: absolute;
-	top: 30%;
-	left: 48%;
+	top: 45%;
+	right: 16%;
 }
-.slider .cont-slider-ineter .prev{
+.prev{
 	background: url(../img/iconos/slider/prev.png) no-repeat;
 	height: 34px;
 	width: 34px;
 	position: absolute;
-	top: 30%;
-	left: 0;
+	top: 45%;
+	left: 16%;
 }

@@ -19,9 +19,9 @@ li{list-style: none;
 	.menu li:last-child{ border-right:none;}
 	.menu li:last-child{border-right:none;}
 
-	.menu a:hover{	font-size: 28px;
+	.menu a:hover{	font-size: 20px;
 		font-weight: bold;
-		border: 3px solid #5E8039;}
+		border-bottom: 3px solid #5E8039;}
 /*termina el menu*/
 
 /* Slider imagen principal */
@@ -41,9 +41,9 @@ li{list-style: none;
 	    height: 100%;
 	    width: 300%;} 
 
-	.element-1{background: url("../img/foto.jpg") no-repeat 30% 60%; 	}
-	.element-2{  background: url("../img/foto1.jpg") no-repeat center;	}
-	.element-3{  background: url("../img/foto2.jpg")no-repeat center; }
+	.element-1{background: url("../img/foto.jpg") no-repeat 30% 60%; background-size: cover;	}
+	.element-2{  background: url("../img/foto1.jpg") no-repeat top ;background-size: cover;}
+	.element-3{  background: url("../img/foto2x.jpg")no-repeat 30% 35% ; background-size: cover;}
 	.element-1,.element-2,.element-3 {
 	    min-height: 400px;
 	    max-height: 100%;
@@ -53,7 +53,7 @@ li{list-style: none;
 	    float: left;
 	    width: 33.333%;}
 	
-	#element1, #element2 , #element3{ bottom:0 ; }
+	#element1, #element2 , #element3{ bottom:5px ; }
 	#element1{ left: 48.5%; }
 	#element2{ left: 50%; }
 	#element3{ left: 51.5%; }
@@ -83,7 +83,7 @@ li{list-style: none;
 .servicios div div{ padding: 3%;}
 .lista-servicios p{ text-align: justify;}
 .servicios img{ width: 40%; }
-.lista-servicios h4 { margin:5%; }
+.lista-servicios h3 { margin:3%; }
 /*Fin Servicios*/
 
 /*Team*/
