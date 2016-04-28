@@ -120,3 +120,8 @@ li{list-style: none;
 .contacto li:last-child{border-right:none;} 
 .contacto p{padding: 5%; }
 /*termina siguemos*/
+
+.listas li a {
+	text-decoration: none;
+	color: white;
+}
