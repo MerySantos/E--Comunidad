@@ -1,4 +1,4 @@
-/* Inserta tu codigo aqui */
+ Inserta tu codigo aqui */
 a{text-decoration: none;}
 li{list-style: none;
 	display: inline-block;}
@@ -24,9 +24,11 @@ li{list-style: none;
 	border: 3px solid #5E8039;
 }
 /*termina el menu*/
+/*proyectos*/
 .fondoverde{
 	background: url(../img/fondo.jpg);
 }
+/*finproyectos*/
 /*parte siguenos*/
 #siguenos{
 	padding: 30px 0;
@@ -53,4 +55,4 @@ li{list-style: none;
 .contacto p{
 	padding: 5%;	
 }
-/*termina siguemos*/
+/*termina siguemos
